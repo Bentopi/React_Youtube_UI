@@ -1,4 +1,11 @@
-Simple Tinder React UI
+Simple Youtube UI clone(ish) using React.
+
+Simply clone, then run `npm install`, and `npm start`.
+
+
+
+
+-------------------------------------------------------------------------------
 
 Made using [StephenGrider's](https://github.com/stephengrider) React Boilerplate
 
