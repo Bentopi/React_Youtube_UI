@@ -1,10 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+.react-app {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 15px;
+}
+
+.bg-gray {
+  background-color: #F1F1F1;
+  border: solid #E8E8E8 1px;
+}
+
 .search-bar {
   margin: 20px;
   text-align: center;
 }
 
+.details {
+  background-color: #FFFFFF;
+}
+
 .search-bar input {
-  width:75%;
+  width:60%;
+  border-radius: 25px;
+  padding-left: 15px;
+  -webkit-transition: width 0.4s, border-color 1.5s, ease-in-out;
+  transition: width 0.4s, border-color 1.5s, ease-in-out;
+}
+.search-bar input:focus {
+    border-color: #FF0000;
+    width: 80%;
+    outline: none;
 }
 
 .video-item img {
@@ -14,14 +40,22 @@
 .video-detail .details {
   margin-top: 10px;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 2px solid #EEEEEE;
 }
 
 .list-group-item {
   cursor: pointer;
+  -webkit-transition: background-color 1s, ease-in-out;
+  transition: background-color 1s, ease-in-out;
+
 }
 
 .list-group-item:hover {
-  background-color: #eee;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.main-title {
+  text-align: center;
+  padding-top: 10px;
+
 }
