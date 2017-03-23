@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "express": "^4.15.2",
     "lodash": "^3.10.1",
     "normalize.css": "^5.0.0",
     "react": "^0.14.8",
